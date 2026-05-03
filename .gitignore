@@ -11,3 +11,10 @@ wheels/
 
 # Secrets files
 .env
+
+# Response Sample Files
+response_all_gamekeys.json
+response_gamekey_full_info.json
+
+# Output data
+output/
