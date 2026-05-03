@@ -27,20 +27,25 @@ A Python 3.14 script that retrieves your Humble Bundle library via the Humble AP
 
 1. Clone the repo and enter it
 
-   git clone <your-repo-url>
-   cd humble_retrieve
+```bash
+git clone https://github.com/albertm360/humble_retrieve.git
+cd humble_retrieve
+```
 
 2. Install dependencies
 
-   uv sync
+```bash
+uv sync
+```
 
 3. Create your environment file
 
    Create a file named .env in the project root with:
-
-   humble_session_key=YOUR_HUMBLE_SIMPLEAUTH_SESS_VALUE
-   request_timeout_seconds=30
-   user_agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+```bash
+humble_session_key=YOUR_HUMBLE_SIMPLEAUTH_SESS_VALUE
+request_timeout_seconds=30
+user_agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+```
 
 Notes:
 - humble_session_key is required.
@@ -61,7 +66,9 @@ Keep this value secret. It grants account access for API requests.
 
 From the project root:
 
+```bash
 uv run main.py
+```
 
 ## Output
 
