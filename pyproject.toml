@@ -1,7 +1,7 @@
 [project]
 name = "humble-retrieve"
 version = "0.1.0"
-description = "Add your description here"
+description = "A script to retrieve personal Humble Bundle library items"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
