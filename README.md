@@ -84,7 +84,7 @@ uv run main.py
 ## Troubleshooting
 
 - Missing .env or missing humble_session_key:
-  - Startup will fail due strict settings validation.
+  - Startup will fail due to strict settings validation.
 - 401/403 or empty library:
   - Session key may be expired or invalid.
 - Request/network errors:
